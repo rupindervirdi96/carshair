@@ -1,0 +1,2 @@
+user makes a search.
+i display all results matching the request

@@ -1,0 +1,8 @@
+export const GET_ALL_DATA = "GET_ALL_DATA";
+export const GET_FILTERED_DATA = "GET_FILTERED_DATA";
+export const CHANGE_MAKE = "CHANGE_MAKE";
+export const CHANGE_TYPE = "CHANGE_TYPE";
+export const CHANGE_YEAR = "CHANGE_YEAR";
+export const SEARCH_FILTERED_DATA = "SEARCH_FILTERED_DATA";
+export const SEARCH_QUERY_UPDATE = "SEARCH_QUERY_UPDATE";
+export const HIDE_MENU = "HIDE_MENU";
