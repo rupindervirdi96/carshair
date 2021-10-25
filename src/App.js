@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { SideBar } from "./Components/sideBar.jsx";
+import { DisplayArea } from "./Components/displayArea.jsx";
+import { useDispatch } from "react-redux";
+import { AppStyles } from "./Components/styles";
+import { useEffect } from "react";
+import { getAllMakes, getFilter } from "./actions/appActions";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(
+      getFilter({ make: "ASTON MARTIN", type: "Passenger Car", year: "2021" })
+    );
+    dispatch(getAllMakes());
+  }, [dispatch]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppStyles className="App">
+      {/* <div className="sidebar-container"> */}
+      <SideBar />
+      {/* </div> */}
+      <DisplayArea />
+    </AppStyles>
   );
 }
 
