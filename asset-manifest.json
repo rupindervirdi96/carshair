@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/carshair/static/css/main.cc20a09d.chunk.css",
+    "main.js": "/carshair/static/js/main.27d70ace.chunk.js",
+    "main.js.map": "/carshair/static/js/main.27d70ace.chunk.js.map",
+    "runtime-main.js": "/carshair/static/js/runtime-main.8e2fd82e.js",
+    "runtime-main.js.map": "/carshair/static/js/runtime-main.8e2fd82e.js.map",
+    "static/js/2.947e8a77.chunk.js": "/carshair/static/js/2.947e8a77.chunk.js",
+    "static/js/2.947e8a77.chunk.js.map": "/carshair/static/js/2.947e8a77.chunk.js.map",
+    "index.html": "/carshair/index.html",
+    "static/css/main.cc20a09d.chunk.css.map": "/carshair/static/css/main.cc20a09d.chunk.css.map",
+    "static/js/2.947e8a77.chunk.js.LICENSE.txt": "/carshair/static/js/2.947e8a77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e2fd82e.js",
+    "static/js/2.947e8a77.chunk.js",
+    "static/css/main.cc20a09d.chunk.css",
+    "static/js/main.27d70ace.chunk.js"
+  ]
+}
